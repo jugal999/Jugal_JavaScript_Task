@@ -1,0 +1,25 @@
+var w;var l;
+var i;
+for (i = 0; i < 5; i++) {
+  var a=Math.floor(Math.random()*(20-1))+1;
+console.log("random value is:"+a);
+var b=prompt("enter number");
+console.log("user entered:"+b);
+if(a==b){
+ w++;
+ alert('won'+i);
+}
+else{
+ l++;
+    alert('lost'+i);
+}
+}
+
+if(w>l){
+alert('final Result won');
+
+}
+else
+{
+alert('final Result Lost');
+}

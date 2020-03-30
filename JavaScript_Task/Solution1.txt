@@ -1,0 +1,10 @@
+var a=Math.floor(Math.random()*(20-1))+1;
+console.log("random value is:"+a);
+var b=prompt("enter number");
+console.log("user entered:"+b);
+if(a==b){
+ alert('won');
+}
+else{
+    alert('lost');
+}
