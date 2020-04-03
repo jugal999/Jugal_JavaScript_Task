@@ -23,3 +23,34 @@ else
 {
 alert('final Result Lost');
 }
+
+
+============================================================================================================
+
+var rendomNumber=[Math.floor(Math.random()*(20-1))+1,Math.floor(Math.random()*(20-1))+1,Math.floor(Math.random()*(20-1))+1,
+                  Math.floor(Math.random()*(20-1))+1,Math.floor(Math.random()*(20-1))+1];
+
+var userinput=[prompt("enter number"),prompt("enter number"),prompt("enter number"),prompt("enter number"),prompt("enter number")];
+
+var w;var l;
+var i;
+
+for (i = 0; i < 5; i++) {
+
+if(rendomNumber.includes(userinput[0])){
+    w++
+}
+else{
+  l++
+
+}
+
+}
+
+if(w>l){
+alert('final Result won');
+}
+else
+{
+alert('final Result Lost');
+}
